@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+*{
+	border: 1px dashed black;
+}
+
+*:hover{
+	border: 1px solid red;
+}
+
+/* Resets */
+table{
+	width: 550px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+th{
+	border-bottom: 1px solid black;
+}
+
+td, th{
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+
+ul {
+    padding:0;
+    margin:0 0 20px 0;
+    list-style:none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:red;
+}
+
+a:hover {
+    text-decoration:none;
+	color: #930;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+	margin: 5px auto;
+	z-index: 10;
+	position: relative;
+	left: -100px;
+	top: -110px;
+}
+
+
+/* Containers */
+body {
+    background-color: #F0F0F0;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 0px;
+	display: block;
+}
+
+#container{
+    background:#fff;
+    margin: 0px auto;
+    padding: 15px 5px 5px 5px;
+	border: 1px solid #CCC;
+	border-top: none;
+}
+
+header {
+    width: 980px;
+    padding:5px;
+    margin: 100px auto auto;
+	height: 75px;
+	border: 1px solid #CCC;
+	border-bottom: none;
+	background-color: #fff;
+}
+
+#container {
+	width: 980px;
+    min-height: 400px;
+	height: auto;
+}
+
+/* Aside */
+aside {
+	float: right;
+	position: relative;
+	top: -208px;
+	width: 550px;
+	height: 65px;
+	display: inline-block;
+	padding: 5px;
+}
+
+#user_header{
+	margin: 0px;
+	width: 400px;
+	float: right;
+	text-align: right;
+}
+
+#login_nav{
+	margin: 0px auto;
+	padding: 2px 2px 0px 150px;
+}
+
+/* Footer */
+footer {
+	margin: auto;
+    color:#999;
+	width: 980px;
+	padding: 5px;
+}
+
+footer #links{
+	text-align: center;
+	font-size: 10px;
+}
+
+/* Misc */
+.clear {
+    clear:both;
+}/* CSS Document */
+
+#home_pic{
+	position: relative;
+	top: -50px;
+	height: 530px;
+}
+
+#main_login{
+	position: relative;
+	float: left;
+	left: 100px;
+	top: -350px;
+	overflow: hidden;
+}
+
+#search{
+	margin: 20px 0px 5px 0px;
+}
+
+#compare_data{
+	position: relative;
+	top: -100px;
+	width: 100%;
+}
+
+#upload{
+	width: 500px;
+	margin: 5px auto;
+}
+
+.advice{
+	border: 1px solid blue;
+	font-size: 20px;
+	color: black;
+	background-color: lightblue;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#register{
+	width: 500px;
+	margin: auto;
+}
+
+#manual_data{
+	width: 400px;
+	margin: 25px 0px 5px 0px;
+}
+
+#graph{
+	border: 1px solid blue;
+	font-size: 20px;
+	color: black;
+	background-color: lightblue;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+img.graph{
+	border: 1px solid #999;
+	margin-right: auto;
+	margin-left: 240px;
+}
